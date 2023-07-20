@@ -1,0 +1,50 @@
+---
+title: "A0 Introductory Notebook"
+shorttitle: "Intro"
+author:
+  - Alexandru Mahmoud, almahmoud at channing.harvard.edu
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+vignette: >
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteIndexEntry{A0 Introductory Notebook}
+  %\VignetteEncoding{UTF-8}
+output:
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    theme: united
+    toc: yes
+---
+
+# Introductory Notebook
+
+## Creating R functions
+
+The rest of the course will use advanced functions created for analyzing and visualizing data.
+These complex functions are simply an amalgamation of other smaller functions, webbed together by a cohesive logic.
+Each function has a specific purpose, with a desired input and output.
+
+### Exercises
+
+A.0.1 Create a function named `is_even` that returns TRUE when its input `x` is even, and FALSE when its input `x` is odd.
+
+```
+Replace this text with your code
+```
+
+A.0.2 Assuming you have a function named `is_even` that works properly, think of some ways to write a function `is_odd` using the former function.
+
+```
+Replace this text with your code
+```
+
+## Finding R packages
+
+Beyond writing functions yourself, a large part of data science is finding functions already written and optimized by others. While understanding how to code is important in order to extend existing algorithms and bring them together for your analysis purposes, it is rare to create new algorithms from scratch rather than build on the existing software ecosystems that have been created by other experts and improved by the community over the years. Bioconductor itself manages a large software repository for R packages related to data science, especially for Bioinformatics. CRAN is the default software repository for the R programming language. Many other packages are also publicly available on github.com, a repository for open source software. Finding packages is often a combination of using various online resources and looking through the latest scientific publications in bioinformatics journals.
+
+### Exercises
+A.0.3 Find interesting packages that seem useful for your data science interests. These could be from a specific biological field (genomics, rna analysis, etc...), or other scientific fields (computational chemistry, astronomy, etc...). HINT: Use Google as a starting point if you have an idea of a specific type of package you are looking for, or browse packages at bioconductor.org until one peaks your interest.
+
+```
+Write a simple print function that tells us what package you chose, and why it peaked your interest. Can you see yourself coming back to this package in later years?
+```
