@@ -12,10 +12,11 @@ function has a specific purpose, with a desired input and output.
 A.0.1 Create a function named `is_even` that returns TRUE when its input
 `x` is even, and FALSE when its input `x` is odd.
 
-    Replace this text with your code. Use the below functions to check your answers.
+    Replace this text with your code.
+
+Use the below functions to check your answers.
 
     print(is_even(4862))  # Desired output: TRUE
-
     print(is_even(7000001))  # Desired output: FALSE
 
 A.0.2 Assuming you have a function named `is_even` that works properly,
@@ -24,8 +25,9 @@ function.
 
     Replace this text with your code. Use the below functions to check your answers.
 
-    print(is_even(2123))  # Desired output: TRUE
+Use the below functions to check your answers.
 
+    print(is_even(2123))  # Desired output: TRUE
     print(is_odd(4444))  # Desired output: FALSE
 
 ## Finding R packages
